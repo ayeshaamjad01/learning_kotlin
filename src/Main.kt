@@ -1,10 +1,16 @@
 fun main () {
-   var age = 25
-    println(age)
-    println(age+1)
-    age = 30
-    println(age)
+ val name = "Ayesha"
+ val id = 78234
+ var isEmployed = false
 
-    val ageVal = 25
-    println(ageVal)
+
+ println("Welcome $name,")
+ println("Your id is $id")
+ println("Employed ? $isEmployed")
+ isEmployed = true
+ println("Now Employed ? $isEmployed")
+
+
+
+
 }
